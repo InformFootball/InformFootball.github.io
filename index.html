@@ -18,7 +18,7 @@
                     },
                     colors: {
                         brand: {
-                            navy: '#061c43',
+                            navy: '#061c43',       /* Seamless site background */
                             dark: '#030e24',
                             card: '#0a275e',
                             border: '#12397e',
@@ -37,10 +37,12 @@
     <!-- NAVIGATION HEADER -->
     <header class="sticky top-0 z-50 bg-brand-navy/95 backdrop-blur-md border-b border-brand-border/60">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 h-28 sm:h-32 flex items-center justify-between">
+            <!-- Large Logo Top-Left -->
             <a href="#" class="flex items-center">
                 <img src="Logo2.png" alt="INFORM Applied Football Intelligence" class="h-20 sm:h-24 md:h-28 w-auto object-contain">
             </a>
             
+            <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide uppercase">
                 <a href="#about" class="text-slate-300 hover:text-white transition">About</a>
                 <a href="#services" class="text-slate-300 hover:text-white transition">Services</a>
@@ -88,6 +90,7 @@
     <section id="about" class="py-20 lg:py-28 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             
+            <!-- SEAMLESS SINGLE-LINE LOGO STRIP -->
             <div class="mb-20 pb-16 border-b border-brand-border/40">
                 <div class="text-center mb-10">
                     <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Football Experience</span>
@@ -95,30 +98,48 @@
                 
                 <div class="w-full overflow-x-auto pb-4 scrollbar-none">
                     <div class="flex flex-nowrap items-center justify-between min-w-[760px] lg:min-w-0 gap-4 sm:gap-6 px-2">
+                        
+                        <!-- 1. Premier League -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Englishpremierleague.png" alt="Premier League" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+                        
+                        <!-- 2. Southport -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Southport.png" alt="Southport FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+                        
+                        <!-- 3. Huddersfield Town -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Huddersfield.png" alt="Huddersfield Town" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+                        
+                        <!-- 4. Stoke City -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Stokecity.png" alt="Stoke City FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+
+                        <!-- 5. Everton (Center) -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Everton.png" alt="Everton FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+
+                        <!-- 6. Blackburn Rovers -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Blackburnrovers.png" alt="Blackburn Rovers FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+
+                        <!-- 7. Nantwich Town -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Nantwichtown.png" alt="Nantwich Town FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain" onerror="this.src='Nationalleague.png'">
                         </div>
+
+                        <!-- 8. Hednesford Town -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Hednesfordtown.png" alt="Hednesford Town FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
+
+                        <!-- 9. Northern Premier League -->
                         <div class="flex-1 flex items-center justify-center bg-brand-navy">
                             <img src="Northernpremierleague.png" alt="Northern Premier League" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
                         </div>
@@ -126,6 +147,7 @@
                 </div>
             </div>
 
+            <!-- MAIN BODY / CONSULTANCY PROFILE -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
                 <div class="lg:col-span-5">
                     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
@@ -152,6 +174,7 @@
     <section id="services" class="py-24 lg:py-32 bg-brand-dark/40 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             
+            <!-- Left-Aligned Section Header -->
             <div class="mb-16">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight text-left mb-4">
                     Our Services
@@ -161,8 +184,10 @@
                 </p>
             </div>
 
+            <!-- Three Services Cards: Player, Data, Opposition -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
+                <!-- Card 1: Player -->
                 <div class="bg-brand-card/80 border border-brand-border p-8 rounded-2xl flex flex-col justify-between hover:border-brand-emerald/60 transition duration-300">
                     <div>
                         <div class="w-12 h-12 rounded-xl bg-brand-emerald/10 border border-brand-emerald/20 flex items-center justify-center text-brand-emerald mb-6 font-bold text-lg">
@@ -189,6 +214,7 @@
                     </ul>
                 </div>
 
+                <!-- Card 2: Data -->
                 <div class="bg-brand-card/80 border border-brand-border p-8 rounded-2xl flex flex-col justify-between hover:border-brand-emerald/60 transition duration-300">
                     <div>
                         <div class="w-12 h-12 rounded-xl bg-brand-emerald/10 border border-brand-emerald/20 flex items-center justify-center text-brand-emerald mb-6 font-bold text-lg">
@@ -215,6 +241,7 @@
                     </ul>
                 </div>
 
+                <!-- Card 3: Opposition -->
                 <div class="bg-brand-card/80 border border-brand-border p-8 rounded-2xl flex flex-col justify-between hover:border-brand-emerald/60 transition duration-300">
                     <div>
                         <div class="w-12 h-12 rounded-xl bg-brand-emerald/10 border border-brand-emerald/20 flex items-center justify-center text-brand-emerald mb-6 font-bold text-lg">
@@ -245,7 +272,7 @@
         </div>
     </section>
 
-    <!-- CREDENTIALS & ACCREDITATION STRIP (Updated with Logos and Text) -->
+    <!-- CREDENTIALS & ACCREDITATION STRIP (PFSA.png Fixed) -->
     <section id="credentials" class="py-20 lg:py-24 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="text-center max-w-3xl mx-auto mb-14">
@@ -253,7 +280,6 @@
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Accreditation & Toolset</h2>
             </div>
 
-            <!-- Changed to grid-cols-2 md:grid-cols-3 lg:grid-cols-6 for 6 uniform boxes -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
                 
                 <!-- FA Level 2 -->
@@ -270,9 +296,9 @@
                     <div class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-300 font-semibold">Coaching Licence</div>
                 </div>
 
-                <!-- PFSA Level 2 -->
+                <!-- PFSA Level 2 (Updated to PFSA.png) -->
                 <div class="bg-brand-card/40 border border-brand-border p-6 rounded-2xl flex flex-col items-center justify-start text-center">
-                    <img src="PFSA.jpg" alt="PFSA" class="h-12 w-auto object-contain mb-4 rounded-md">
+                    <img src="PFSA.png" alt="PFSA" class="h-12 w-auto object-contain mb-4 rounded-md">
                     <div class="text-brand-emerald font-bold text-sm sm:text-base mb-1">PFSA Level 2</div>
                     <div class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-300 font-semibold">Player & Opposition</div>
                 </div>

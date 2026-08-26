@@ -18,7 +18,7 @@
                     },
                     colors: {
                         brand: {
-                            navy: '#061c43',
+                            navy: '#061c43',       /* Seamless site background */
                             dark: '#030e24',
                             card: '#0a275e',
                             border: '#12397e',
@@ -37,10 +37,12 @@
     <!-- NAVIGATION HEADER -->
     <header class="sticky top-0 z-50 bg-brand-navy/95 backdrop-blur-md border-b border-brand-border/60">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 h-28 sm:h-32 flex items-center justify-between">
+            <!-- Large Logo Top-Left -->
             <a href="#" class="flex items-center">
                 <img src="Logo2.png" alt="INFORM Applied Football Intelligence" class="h-20 sm:h-24 md:h-28 w-auto object-contain">
             </a>
             
+            <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide uppercase">
                 <a href="#about" class="text-slate-300 hover:text-white transition">About</a>
                 <a href="#services" class="text-slate-300 hover:text-white transition">Services</a>
@@ -73,7 +75,7 @@
                     <a href="#services" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-emerald hover:bg-brand-accent text-brand-dark font-bold text-sm tracking-wide uppercase transition shadow-xl shadow-emerald-500/20">
                         Our Services
                     </a>
-                    <a href="#contact" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-card hover:bg-brand-border border border-brand-border text-white font-bold text-sm tracking-wide uppercase transition">
+                    <a href="#contact" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-navy hover:bg-brand-card border border-brand-border text-white font-bold text-sm tracking-wide uppercase transition">
                         Request Sample Dossier
                     </a>
                 </div>
@@ -85,56 +87,60 @@
     <section id="about" class="py-20 lg:py-28 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             
-            <!-- UNIFORM CLUB & LEAGUE BADGES STRIP -->
+            <!-- SEAMLESS SINGLE-LINE LOGO STRIP -->
             <div class="mb-20 pb-16 border-b border-brand-border/40">
                 <div class="text-center mb-10">
                     <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Experience & Coverage Across the Pyramid</span>
                 </div>
                 
-                <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-10">
-                    <!-- Premier League -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Englishpremierleague.png" alt="Premier League" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
-                    
-                    <!-- Southport -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Southport.png" alt="Southport FC" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
-                    
-                    <!-- Huddersfield Town -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Huddersfield.png" alt="Huddersfield Town" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
-                    
-                    <!-- Stoke City -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Stokecity.png" alt="Stoke City FC" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
+                <!-- Single-line container with consistent dimensions and pure background blending -->
+                <div class="w-full overflow-x-auto pb-4 scrollbar-none">
+                    <div class="flex flex-nowrap items-center justify-between min-w-[760px] lg:min-w-0 gap-4 sm:gap-6 px-2">
+                        
+                        <!-- 1. Premier League -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Englishpremierleague.png" alt="Premier League" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
+                        
+                        <!-- 2. Southport -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Southport.png" alt="Southport FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
+                        
+                        <!-- 3. Huddersfield Town -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Huddersfield.png" alt="Huddersfield Town" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
+                        
+                        <!-- 4. Stoke City -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Stokecity.png" alt="Stoke City FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
 
-                    <!-- Everton (Clean, Uniform Card) -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Everton.png" alt="Everton FC" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
+                        <!-- 5. Everton (Center) -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Everton.png" alt="Everton FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
 
-                    <!-- Blackburn Rovers -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Blackburnrovers.png" alt="Blackburn Rovers FC" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
+                        <!-- 6. Blackburn Rovers -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Blackburnrovers.png" alt="Blackburn Rovers FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
 
-                    <!-- Nantwich Town -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Nantwichtown.png" alt="Nantwich Town FC" class="h-14 sm:h-20 w-auto object-contain" onerror="this.src='Nationalleague.png'">
-                    </div>
+                        <!-- 7. Nantwich Town -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Nantwichtown.png" alt="Nantwich Town FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain" onerror="this.src='Nationalleague.png'">
+                        </div>
 
-                    <!-- Hednesford Town -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Hednesfordtown.png" alt="Hednesford Town FC" class="h-14 sm:h-20 w-auto object-contain">
-                    </div>
+                        <!-- 8. Hednesford Town -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Hednesfordtown.png" alt="Hednesford Town FC" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
 
-                    <!-- Northern Premier League -->
-                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
-                        <img src="Northernpremierleague.png" alt="Northern Premier League" class="h-14 sm:h-20 w-auto object-contain">
+                        <!-- 9. Northern Premier League -->
+                        <div class="flex-1 flex items-center justify-center bg-brand-navy">
+                            <img src="Northernpremierleague.png" alt="Northern Premier League" class="h-14 sm:h-16 lg:h-18 w-full max-w-[85px] object-contain">
+                        </div>
                     </div>
                 </div>
             </div>

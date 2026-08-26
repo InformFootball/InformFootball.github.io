@@ -18,10 +18,10 @@
                     },
                     colors: {
                         brand: {
-                            navy: '#101e32',
-                            dark: '#0a1320',
-                            card: '#13243c',
-                            border: '#1e3557',
+                            navy: '#061c43',       /* Exact color-matched background from Logo2 */
+                            dark: '#030e24',       /* Deeper tone for contrast sections */
+                            card: '#0a275e',       /* Elevated card background */
+                            border: '#12397e',     /* Clean structural border */
                             emerald: '#10b981',
                             teal: '#2dd4bf',
                             accent: '#34d399'
@@ -34,12 +34,12 @@
 </head>
 <body class="bg-brand-navy text-slate-200 font-sans antialiased selection:bg-brand-emerald selection:text-brand-dark">
 
-    <!-- NAVIGATION HEADER -->
+    <!-- NAVIGATION HEADER (Expanded with Much Larger Logo) -->
     <header class="sticky top-0 z-50 bg-brand-navy/95 backdrop-blur-md border-b border-brand-border/60">
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
-            <!-- Logo top-left updated to Logo2.png -->
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 h-28 sm:h-32 flex items-center justify-between">
+            <!-- Large Logo Top-Left -->
             <a href="#" class="flex items-center">
-                <img src="Logo2.png" alt="INFORM Applied Football Intelligence" class="h-12 md:h-14 w-auto object-contain">
+                <img src="Logo2.png" alt="INFORM Applied Football Intelligence" class="h-20 sm:h-24 md:h-28 w-auto object-contain">
             </a>
             
             <!-- Desktop Navigation -->
@@ -47,7 +47,7 @@
                 <a href="#about" class="text-slate-300 hover:text-white transition">About</a>
                 <a href="#services" class="text-slate-300 hover:text-white transition">Services</a>
                 <a href="#credentials" class="text-slate-300 hover:text-white transition">Credentials</a>
-                <a href="#contact" class="bg-brand-emerald hover:bg-brand-accent text-brand-dark px-5 py-2.5 rounded-full font-bold transition shadow-lg shadow-emerald-500/10">
+                <a href="#contact" class="bg-brand-emerald hover:bg-brand-accent text-brand-dark px-6 py-3 rounded-full font-bold transition shadow-lg shadow-emerald-500/10">
                     Get in Touch
                 </a>
             </nav>
@@ -60,7 +60,7 @@
             <div class="max-w-4xl">
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-border/50 border border-brand-border text-xs uppercase tracking-widest text-brand-teal font-semibold mb-8">
                     <span class="w-2 h-2 rounded-full bg-brand-emerald animate-pulse"></span>
-                    Applied Football Analysis & Talent Identification
+                    Applied Football Intelligence & Talent Identification
                 </div>
                 <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.08] mb-8">
                     Data-Led Insights. <br>
@@ -94,7 +94,7 @@
                 </div>
                 
                 <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-10">
-                    <!-- Left End: League Logo -->
+                    <!-- Premier League -->
                     <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
                         <img src="Englishpremierleague.png" alt="Premier League" class="h-12 sm:h-16 w-auto object-contain">
                     </div>
@@ -124,7 +124,7 @@
                         <img src="Blackburnrovers.png" alt="Blackburn Rovers FC" class="h-12 sm:h-16 w-auto object-contain">
                     </div>
 
-                    <!-- Nantwich Town -->
+                    <!-- Nantwich Town / National League -->
                     <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
                         <img src="Nantwichtown.png" alt="Nantwich Town FC" class="h-12 sm:h-16 w-auto object-contain" onerror="this.src='Nationalleague.png'">
                     </div>
@@ -134,7 +134,7 @@
                         <img src="Hednesfordtown.png" alt="Hednesford Town FC" class="h-12 sm:h-16 w-auto object-contain">
                     </div>
 
-                    <!-- Right End: League Logo -->
+                    <!-- Northern Premier League -->
                     <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
                         <img src="Northernpremierleague.png" alt="Northern Premier League" class="h-12 sm:h-16 w-auto object-contain">
                     </div>
@@ -241,7 +241,7 @@
         </div>
     </section>
 
-    <!-- CREDENTIALS & METHODOLOGY STRIP -->
+    <!-- CREDENTIALS & ACCREDITATION STRIP -->
     <section id="credentials" class="py-20 lg:py-24 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="text-center max-w-3xl mx-auto mb-14">
@@ -278,7 +278,7 @@
                 Elevate your recruitment decisions.
             </h2>
             <p class="text-slate-300 text-lg leading-relaxed mb-10 max-w-2xl mx-auto font-light">
-                Ready to discuss bespoke opposition dossiers, player recruitment profiling, or consultancy partnerships for the 2026/27 campaign?
+                Ready to discuss bespoke opposition dossiers, player recruitment profiling, or consultancy partnerships for the upcoming campaign?
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a href="mailto:contact@informfootball.co.uk" class="w-full sm:w-auto px-10 py-4 rounded-full bg-brand-emerald hover:bg-brand-accent text-brand-dark font-bold text-sm tracking-wide uppercase transition shadow-xl shadow-emerald-500/20">

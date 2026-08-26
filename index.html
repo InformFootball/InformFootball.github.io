@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFORM | Applied Football Analysis & Scouting Consultancy</title>
+    <title>INFORM | Applied Football Analysis & Recruitment</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,31 +37,28 @@
     <!-- NAVIGATION HEADER -->
     <header class="sticky top-0 z-50 bg-brand-navy/95 backdrop-blur-md border-b border-brand-border/60">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
-            <!-- Logo top-left -->
             <a href="#" class="flex items-center">
                 <img src="Logo.png" alt="INFORM Applied Football Analysis" class="h-14 md:h-16 w-auto object-contain">
             </a>
             
-            <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide uppercase">
-                <a href="#about" class="text-slate-300 hover:text-white transition-colors duration-200">About</a>
-                <a href="#services" class="text-slate-300 hover:text-white transition-colors duration-200">Services</a>
-                <a href="#methodology" class="text-slate-300 hover:text-white transition-colors duration-200">Methodology</a>
-                <a href="#experience" class="text-slate-300 hover:text-white transition-colors duration-200">Experience</a>
-                <a href="#contact" class="bg-brand-emerald hover:bg-brand-accent text-brand-dark px-5 py-2.5 rounded-full font-bold transition-all duration-300 shadow-lg shadow-emerald-500/10">
-                    Contact Us
+                <a href="#about" class="text-slate-300 hover:text-white transition">About</a>
+                <a href="#services" class="text-slate-300 hover:text-white transition">Services</a>
+                <a href="#credentials" class="text-slate-300 hover:text-white transition">Credentials</a>
+                <a href="#contact" class="bg-brand-emerald hover:bg-brand-accent text-brand-dark px-5 py-2.5 rounded-full font-bold transition shadow-lg shadow-emerald-500/10">
+                    Get in Touch
                 </a>
             </nav>
         </div>
     </header>
 
-    <!-- HERO SECTION (CAA Base Style Headline) -->
-    <section class="relative pt-20 pb-28 lg:pt-32 lg:pb-36 overflow-hidden border-b border-brand-border/40">
+    <!-- HERO SECTION -->
+    <section class="relative pt-20 pb-24 lg:pt-28 lg:pb-32 overflow-hidden border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="max-w-4xl">
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-border/50 border border-brand-border text-xs uppercase tracking-widest text-brand-teal font-semibold mb-8">
                     <span class="w-2 h-2 rounded-full bg-brand-emerald animate-pulse"></span>
-                    Applied Football Analysis & Recruitment
+                    Applied Football Analysis & Talent Identification
                 </div>
                 <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.08] mb-8">
                     Data-Led Insights. <br>
@@ -70,13 +67,13 @@
                     </span>
                 </h1>
                 <p class="text-lg sm:text-xl text-slate-300 leading-relaxed font-normal max-w-2xl mb-12">
-                    Delivering modern scouting frameworks, bespoke opponent dossiers, and video-backed recruitment analytics designed for clubs, agencies, and professional players.
+                    Delivering modern scouting frameworks, bespoke opponent dossiers, and video-backed recruitment analytics designed for clubs, agencies, and elite players across the football pyramid.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#services" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-emerald hover:bg-brand-accent text-brand-dark font-bold text-sm tracking-wide uppercase transition-all duration-300 shadow-xl shadow-emerald-500/20">
-                        Explore Services
+                    <a href="#services" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-emerald hover:bg-brand-accent text-brand-dark font-bold text-sm tracking-wide uppercase transition shadow-xl shadow-emerald-500/20">
+                        Our Services
                     </a>
-                    <a href="#contact" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-card hover:bg-brand-border border border-brand-border text-white font-bold text-sm tracking-wide uppercase transition-all duration-300">
+                    <a href="#contact" class="inline-flex justify-center items-center px-8 py-4 rounded-full bg-brand-card hover:bg-brand-border border border-brand-border text-white font-bold text-sm tracking-wide uppercase transition">
                         Request Sample Dossier
                     </a>
                 </div>
@@ -84,61 +81,104 @@
         </div>
     </section>
 
-    <!-- STATS / HIGHLIGHT STRIP (CAA Base Agency Style) -->
-    <section class="bg-brand-dark/60 py-16 border-b border-brand-border/40">
+    <!-- ABOUT & CLUB AFFILIATIONS SECTION -->
+    <section id="about" class="py-20 lg:py-28 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
-                <div class="border-l-2 border-brand-emerald pl-6">
-                    <div class="text-3xl lg:text-4xl font-extrabold text-white mb-1">100%</div>
-                    <div class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Data & Video Verified</div>
+            
+            <!-- CLUB & LEAGUE BADGES STRIP -->
+            <div class="mb-20 pb-16 border-b border-brand-border/40">
+                <div class="text-center mb-10">
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Experience & Coverage Across the Pyramid</span>
                 </div>
-                <div class="border-l-2 border-brand-emerald pl-6">
-                    <div class="text-3xl lg:text-4xl font-extrabold text-white mb-1">Wyscout</div>
-                    <div class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Global Platform Coverage</div>
-                </div>
-                <div class="border-l-2 border-brand-emerald pl-6">
-                    <div class="text-3xl lg:text-4xl font-extrabold text-white mb-1">Bespoke</div>
-                    <div class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Tailored Metric Frameworks</div>
-                </div>
-                <div class="border-l-2 border-brand-emerald pl-6">
-                    <div class="text-3xl lg:text-4xl font-extrabold text-white mb-1">Live & Remote</div>
-                    <div class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Matchday Scouting</div>
+                
+                <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-10">
+                    <!-- Left End: League Logo -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Englishpremierleague.png" alt="Premier League" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
+                    
+                    <!-- Southport -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Southport.png" alt="Southport FC" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
+                    
+                    <!-- Huddersfield Town -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Huddersfield.png" alt="Huddersfield Town" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
+                    
+                    <!-- Stoke City -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Stokecity.png" alt="Stoke City FC" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
+
+                    <!-- CENTER: Everton -->
+                    <div class="flex items-center justify-center p-4 rounded-2xl bg-brand-card border-2 border-brand-emerald/60 shadow-lg shadow-emerald-500/10 scale-105">
+                        <img src="Everton.png" alt="Everton FC" class="h-14 sm:h-20 w-auto object-contain">
+                    </div>
+
+                    <!-- Blackburn Rovers -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Blackburnrovers.png" alt="Blackburn Rovers FC" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
+
+                    <!-- Nantwich Town -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Nantwichtown.png" alt="Nantwich Town FC" class="h-12 sm:h-16 w-auto object-contain" onerror="this.src='Nationalleague.png'">
+                    </div>
+
+                    <!-- Hednesford Town -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Hednesfordtown.png" alt="Hednesford Town FC" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
+
+                    <!-- Right End: League Logo -->
+                    <div class="flex items-center justify-center p-3 rounded-2xl bg-brand-card/30 border border-brand-border/40 hover:border-brand-emerald/40 transition">
+                        <img src="Northernpremierleague.png" alt="Northern Premier League" class="h-12 sm:h-16 w-auto object-contain">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="py-24 lg:py-32 border-b border-brand-border/40">
-        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <!-- MAIN BODY / CONSULTANCY PROFILE -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
                 <div class="lg:col-span-5">
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">About the Consultancy</span>
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Consultancy Lead & Background</span>
                     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                        Bridging objective data and tactical context.
+                        Bridging objective data with tactical reality.
                     </h2>
+                    <div class="mt-8 p-6 bg-brand-card/60 border border-brand-border rounded-2xl">
+                        <div class="text-white font-bold text-lg mb-1">Darren Melling</div>
+                        <div class="text-brand-emerald text-sm font-semibold mb-4">Founder & Lead Football Analyst</div>
+                        <p class="text-slate-300 text-xs leading-relaxed">
+                            MSc Candidate in Scouting and Recruitment in Football (UCFB Manchester). Combining high-level technical qualifications with extensive talent identification across academy, senior non-league, and professional tiers.
+                        </p>
+                    </div>
                 </div>
+                
                 <div class="lg:col-span-7 space-y-6 text-slate-300 text-base sm:text-lg leading-relaxed font-light">
                     <p>
-                        <strong class="text-white font-semibold">INFORM</strong> provides specialist football recruitment scouting and performance analytics. In a fast-paced market, sustainable football decisions require merging advanced metrics with deep contextual video and live assessment.
+                        <strong class="text-white font-semibold">INFORM</strong> is an independent football recruitment and tactical analysis consultancy delivering high-resolution intelligence to football clubs, recruitment departments, sports agencies, and professional players.
                     </p>
                     <p>
-                        From domestic pyramid scouting to comprehensive opposition analysis, our frameworks empower technical directors, recruitment leads, and agency teams with clear, actionable intelligence.
+                        Modern recruitment demands more than subjective opinion or raw spreadsheet numbers. By blending extensive video tracking, live stadium scouting, Wyscout event data, and bespoke statistical modeling (pizza charts, radar percentiles, and normalized performance indices), INFORM provides unambiguous recruitment dossiers tailored to specific club game models.
+                    </p>
+                    <p>
+                        From identifying undervalued talent across the National League System and EFL to delivering in-depth pre-match opposition preparation, our work is grounded in practical application, tactical rigor, and professional integrity.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICES SECTION -->
+    <!-- CORE SERVICES -->
     <section id="services" class="py-24 lg:py-32 bg-brand-dark/40 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
                 <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Core Expertise</span>
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Consultancy Solutions</span>
                     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">Our Services</h2>
                 </div>
-                <p class="text-slate-400 text-sm max-w-md">Comprehensive analysis packages tailored for elite football environments.</p>
+                <p class="text-slate-400 text-sm max-w-md">Bespoke analytical packages developed to give decision-makers a clear competitive edge.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -150,13 +190,13 @@
                         </div>
                         <h3 class="text-xl font-bold text-white mb-4">Recruitment & Player Profiling</h3>
                         <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                            Target identification combining Wyscout event data, normalized statistical benchmarks (radars & percentiles), and comprehensive video scouting reports.
+                            Data-driven shortlist generation and in-depth player dossiers. Combining Wyscout data with positional radars and video breakdowns to evaluate game model fit.
                         </p>
                     </div>
                     <ul class="text-xs font-medium text-slate-400 space-y-2.5 border-t border-brand-border pt-6">
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Role-specific data filtering</li>
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Full video breakdown & tagging</li>
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Value & replacement identification</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Role-specific metric normalization</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Video-backed trait verification</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Succession & replacement mapping</li>
                     </ul>
                 </div>
 
@@ -168,13 +208,13 @@
                         </div>
                         <h3 class="text-xl font-bold text-white mb-4">Opposition & Tactical Analysis</h3>
                         <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                            In-depth pre-match preparation dossiers breaking down opponent structural habits, build-up patterns, pressing triggers, and set-piece routines.
+                            Exhaustive pre-match dossiers detailing structural tendencies in all four phases of play, set-piece routines, press triggers, and individual match-ups.
                         </p>
                     </div>
                     <ul class="text-xs font-medium text-slate-400 space-y-2.5 border-t border-brand-border pt-6">
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> In/Out of possession phase analysis</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> In/Out-of-possession pattern analysis</li>
                         <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Set-piece vulnerability mapping</li>
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Tactical exploit suggestions</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Actionable tactical solutions</li>
                     </ul>
                 </div>
 
@@ -186,74 +226,57 @@
                         </div>
                         <h3 class="text-xl font-bold text-white mb-4">Live Matchday Scouting</h3>
                         <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                            First-hand assessment evaluating non-camera traits: spatial awareness, communication, off-the-ball intensity, and emotional control under pressure.
+                            On-site stadium evaluation capturing off-the-ball movement, psychological resilience, communication, and real-time physical output away from the broadcast camera.
                         </p>
                     </div>
                     <ul class="text-xs font-medium text-slate-400 space-y-2.5 border-t border-brand-border pt-6">
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Live tactical tracking</li>
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Comprehensive post-match dossier</li>
-                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Immediate debrief delivery</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Pitch-level contextual evaluation</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Rapid turnaround post-match report</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-brand-emerald"></span> Pyramid-wide fixture coverage</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EXPERIENCE & BADGES SECTION -->
-    <section id="experience" class="py-24 lg:py-32 border-b border-brand-border/40">
+    <!-- CREDENTIALS & METHODOLOGY STRIP -->
+    <section id="credentials" class="py-20 lg:py-24 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Track Record</span>
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">Professional Experience</h2>
-                <p class="text-slate-400 text-base mt-4">Delivering scouting, recruitment, and performance insights across professional football frameworks.</p>
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Professional Standards</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Accreditation & Toolset</h2>
             </div>
 
-            <!-- Club Badges Grid Placeholder -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="bg-brand-card/50 border border-brand-border/60 p-8 rounded-2xl flex flex-col items-center justify-center text-center group hover:border-brand-emerald/50 transition">
-                    <div class="w-16 h-16 rounded-full bg-brand-navy border border-brand-border flex items-center justify-center mb-4 text-xs text-slate-400 font-semibold group-hover:border-brand-emerald transition">
-                        Badge
-                    </div>
-                    <h4 class="text-white font-bold text-sm">Crewe Alexandra</h4>
-                    <p class="text-xs text-slate-400 mt-1">Academy Recruitment</p>
+                <div class="bg-brand-card/40 border border-brand-border p-6 rounded-2xl text-center">
+                    <div class="text-brand-emerald font-bold text-lg mb-1">FA Level 2</div>
+                    <div class="text-xs uppercase tracking-wider text-slate-300 font-semibold">Talent Identification</div>
                 </div>
-
-                <div class="bg-brand-card/50 border border-brand-border/60 p-8 rounded-2xl flex flex-col items-center justify-center text-center group hover:border-brand-emerald/50 transition">
-                    <div class="w-16 h-16 rounded-full bg-brand-navy border border-brand-border flex items-center justify-center mb-4 text-xs text-slate-400 font-semibold group-hover:border-brand-emerald transition">
-                        Badge
-                    </div>
-                    <h4 class="text-white font-bold text-sm">Professional Analysis</h4>
-                    <p class="text-xs text-slate-400 mt-1">Opposition Scouting</p>
+                <div class="bg-brand-card/40 border border-brand-border p-6 rounded-2xl text-center">
+                    <div class="text-brand-emerald font-bold text-lg mb-1">UEFA B</div>
+                    <div class="text-xs uppercase tracking-wider text-slate-300 font-semibold">Coaching Licence</div>
                 </div>
-
-                <div class="bg-brand-card/50 border border-brand-border/60 p-8 rounded-2xl flex flex-col items-center justify-center text-center group hover:border-brand-emerald/50 transition">
-                    <div class="w-16 h-16 rounded-full bg-brand-navy border border-brand-border flex items-center justify-center mb-4 text-xs text-slate-400 font-semibold group-hover:border-brand-emerald transition">
-                        Badge
-                    </div>
-                    <h4 class="text-white font-bold text-sm">Talent Identification</h4>
-                    <p class="text-xs text-slate-400 mt-1">FA Level 2 Certified</p>
+                <div class="bg-brand-card/40 border border-brand-border p-6 rounded-2xl text-center">
+                    <div class="text-brand-emerald font-bold text-lg mb-1">MSc Candidate</div>
+                    <div class="text-xs uppercase tracking-wider text-slate-300 font-semibold">Scouting & Recruitment (UCFB)</div>
                 </div>
-
-                <div class="bg-brand-card/50 border border-brand-border/60 p-8 rounded-2xl flex flex-col items-center justify-center text-center group hover:border-brand-emerald/50 transition">
-                    <div class="w-16 h-16 rounded-full bg-brand-navy border border-brand-border flex items-center justify-center mb-4 text-xs text-slate-400 font-semibold group-hover:border-brand-emerald transition">
-                        Badge
-                    </div>
-                    <h4 class="text-white font-bold text-sm">UEFA Licenced</h4>
-                    <p class="text-xs text-slate-400 mt-1">Tactical Analysis</p>
+                <div class="bg-brand-card/40 border border-brand-border p-6 rounded-2xl text-center">
+                    <div class="text-brand-emerald font-bold text-lg mb-1">PRINCE2</div>
+                    <div class="text-xs uppercase tracking-wider text-slate-300 font-semibold">Project Management Certified</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT / CALL TO ACTION -->
-    <section id="contact" class="py-24 lg:py-32 bg-brand-dark/50">
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 lg:py-32 bg-brand-dark/60">
         <div class="max-w-4xl mx-auto px-6 lg:px-12 text-center">
-            <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Get In Touch</span>
+            <span class="text-xs font-bold uppercase tracking-widest text-brand-teal mb-3 block">Contact</span>
             <h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
-                Elevate your recruitment intelligence.
+                Elevate your recruitment decisions.
             </h2>
-            <p class="text-slate-300 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-                Discuss custom opposition dossiers, player profiling reports, or ongoing analysis partnerships for the upcoming season.
+            <p class="text-slate-300 text-lg leading-relaxed mb-10 max-w-2xl mx-auto font-light">
+                Ready to discuss bespoke opposition dossiers, player recruitment profiling, or consultancy partnerships for the 2026/27 campaign?
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a href="mailto:contact@informfootball.co.uk" class="w-full sm:w-auto px-10 py-4 rounded-full bg-brand-emerald hover:bg-brand-accent text-brand-dark font-bold text-sm tracking-wide uppercase transition shadow-xl shadow-emerald-500/20">
@@ -270,7 +293,7 @@
             <div class="flex gap-6 uppercase tracking-wider font-semibold text-[11px]">
                 <a href="#about" class="hover:text-white transition">About</a>
                 <a href="#services" class="hover:text-white transition">Services</a>
-                <a href="#experience" class="hover:text-white transition">Experience</a>
+                <a href="#credentials" class="hover:text-white transition">Credentials</a>
                 <a href="#contact" class="hover:text-white transition">Contact</a>
             </div>
         </div>

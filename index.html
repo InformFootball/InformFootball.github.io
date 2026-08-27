@@ -283,7 +283,7 @@
         </div>
     </section>
 
-    <!-- SAMPLE DOSSIERS SECTION (3-Column Grid) -->
+    <!-- SAMPLE DOSSIERS SECTION (Fixed Overlap, Proportional Font Sizing & Alignment) -->
     <section id="samples" class="py-24 lg:py-32 border-b border-brand-border/40">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             
@@ -299,7 +299,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
                 
                 <!-- Sample 1: Player Dossier -->
-                <div class="bg-brand-card/70 border border-brand-border rounded-2xl p-8 flex flex-col justify-between hover:border-brand-emerald/50 transition duration-300">
+                <div class="bg-brand-card/70 border border-brand-border rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-brand-emerald/50 transition duration-300">
                     <div class="flex flex-col h-full">
                         <div class="flex items-center justify-between mb-6">
                             <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-emerald/10 text-brand-emerald border border-brand-emerald/20">
@@ -313,26 +313,26 @@
                         </h3>
                         
                         <p class="text-slate-300 text-sm leading-relaxed mb-8 flex-grow">
-                            Multi-match contextual analysis evaluating tactical adaptability across defensive midfield, full-back, and central midfield roles
+                            Multi-match contextual analysis evaluating tactical adaptability across defensive midfield, full-back, and central midfield roles[cite: 1]
                         </p>
                         
-                        <!-- Metric Box Grid -->
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8 bg-brand-dark/50 p-4 rounded-xl border border-brand-border/40 text-center">
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-white leading-tight">4,096</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Minutes</div>
+                        <!-- Metric Box Grid (4 Equal Columns with Safe Text Wrapping) -->
+                        <div class="grid grid-cols-4 gap-1 sm:gap-2 mb-8 bg-brand-dark/60 p-3 sm:p-4 rounded-xl border border-brand-border/40 text-center">
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-sm sm:text-base font-bold text-white whitespace-nowrap leading-none">4,096</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Minutes[cite: 1]</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-brand-emerald leading-tight">87%</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Pass Acc.</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-sm sm:text-base font-bold text-brand-emerald whitespace-nowrap leading-none">87%</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Pass Acc.[cite: 1]</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-white leading-tight">70.5%</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Def Duels</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-sm sm:text-base font-bold text-white whitespace-nowrap leading-none">70.5%</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Def Duels[cite: 1]</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-brand-teal leading-tight">6.49</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">xA</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-sm sm:text-base font-bold text-brand-teal whitespace-nowrap leading-none">6.49</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">xA[cite: 1]</div>
                             </div>
                         </div>
                     </div>
@@ -345,7 +345,7 @@
                 </div>
 
                 <!-- Sample 2: Data Dive Dossier -->
-                <div class="bg-brand-card/70 border border-brand-border rounded-2xl p-8 flex flex-col justify-between hover:border-brand-emerald/50 transition duration-300">
+                <div class="bg-brand-card/70 border border-brand-border rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-brand-emerald/50 transition duration-300">
                     <div class="flex flex-col h-full">
                         <div class="flex items-center justify-between mb-6">
                             <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-accent/10 text-brand-accent border border-brand-accent/20">
@@ -362,23 +362,23 @@
                             Data-driven positional recruitment dossier benchmarking progressive metrics, defensive profiles, and market shortlists.
                         </p>
                         
-                        <!-- Metric Box Grid -->
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8 bg-brand-dark/50 p-4 rounded-xl border border-brand-border/40 text-center">
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-white leading-tight">Positional</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Cohort</div>
+                        <!-- Metric Box Grid (No text collision, cleanly proportioned) -->
+                        <div class="grid grid-cols-4 gap-1 sm:gap-2 mb-8 bg-brand-dark/60 p-3 sm:p-4 rounded-xl border border-brand-border/40 text-center">
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-white leading-none">Positional</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Cohort</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-brand-emerald leading-tight">100%</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Data-Led</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-brand-emerald leading-none">100%</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Data-Led</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-white leading-tight">Custom</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Radars</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-white leading-none">Custom</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Radars</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-brand-teal leading-tight">Elite</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Shortlists</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-brand-teal leading-none">Elite</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Shortlists</div>
                             </div>
                         </div>
                     </div>
@@ -391,7 +391,7 @@
                 </div>
 
                 <!-- Sample 3: Opposition Dossier -->
-                <div class="bg-brand-card/70 border border-brand-border rounded-2xl p-8 flex flex-col justify-between hover:border-brand-emerald/50 transition duration-300">
+                <div class="bg-brand-card/70 border border-brand-border rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-brand-emerald/50 transition duration-300">
                     <div class="flex flex-col h-full">
                         <div class="flex items-center justify-between mb-6">
                             <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-teal/10 text-brand-teal border border-brand-teal/20">
@@ -405,26 +405,26 @@
                         </h3>
                         
                         <p class="text-slate-300 text-sm leading-relaxed mb-8 flex-grow">
-                            Tactical preparation covering phase-by-phase base formations, build-up turnover triggers, shot locations, transition vulnerabilities, and 8 principle game plans.
+                            Tactical preparation covering phase-by-phase base formations[cite: 2], build-up turnover triggers[cite: 2], shot locations[cite: 2], transition vulnerabilities[cite: 2], and 8 principle game plans[cite: 2].
                         </p>
                         
-                        <!-- Metric Box Grid -->
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8 bg-brand-dark/50 p-4 rounded-xl border border-brand-border/40 text-center">
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-white leading-tight">4-2-3-1</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Base Shape</div>
+                        <!-- Metric Box Grid (Formation strictly on single line with whitespace-nowrap) -->
+                        <div class="grid grid-cols-4 gap-1 sm:gap-2 mb-8 bg-brand-dark/60 p-3 sm:p-4 rounded-xl border border-brand-border/40 text-center">
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-white whitespace-nowrap leading-none">4-2-3-1</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Base Shape[cite: 2]</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-brand-emerald leading-tight">23.3%</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Long Pass %</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-brand-emerald whitespace-nowrap leading-none">23.3%</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Long Pass %[cite: 2]</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-white leading-tight">9.5/10</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Transition Vuln</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-white whitespace-nowrap leading-none">9.5/10</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Transition Vuln[cite: 2]</div>
                             </div>
-                            <div class="flex flex-col justify-center min-h-[52px]">
-                                <div class="text-base font-bold text-brand-teal leading-tight">8 Keys</div>
-                                <div class="text-[9px] uppercase text-slate-400 mt-1">Game Plan</div>
+                            <div class="flex flex-col items-center justify-center min-h-[54px]">
+                                <div class="text-xs sm:text-sm font-bold text-brand-teal whitespace-nowrap leading-none">8 Keys</div>
+                                <div class="text-[9px] sm:text-[10px] font-semibold uppercase tracking-wider text-slate-400 mt-2">Game Plan[cite: 2]</div>
                             </div>
                         </div>
                     </div>
